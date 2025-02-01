@@ -20,19 +20,14 @@ body {
 }
 
 .stats-container {
-    display: flex; /* Enables flexbox for the container */
-    align-items: center; /* Aligns items vertically in the center */
-    justify-content: space-between; /* Distributes space evenly between items */
-    padding: 10px; /* Adds some internal spacing */
-    border: 1px solid #ccc; /* Optional: Adds a border for better visibility */
-    border-radius: 5px; /* Rounds the edges slightly */
-    transition: box-shadow 0.3s ease, cursor 0.3s ease; /* Smooth transition for hover effects */
+    display: flex;
+    align-items: center;
+    cursor: pointer; 
+    transition: box-shadow 0.3s ease;
 }
 
-/* 2. Add hover effect */
 .stats-container:hover {
-    cursor: pointer; /* Changes the cursor to a pointer */
-    box-shadow: 0 0 30px lightblue; /* Adds a glowing light blue shadow */
+    box-shadow: 0 0 30px lightblue;
 }
 
 .stats-card {
